@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { kebabCase } from "@/utils/utils";
-import Link from "next/link";
+// import { kebabCase } from "@/utils/utils";
+// import Link from "next/link";
 
 function ProjectCard({ project }) {
   return (
@@ -50,11 +50,11 @@ function ProjectCard({ project }) {
           {project.tags.map((tag, index) => {
             return (
               <li key={tag}>
-                <Link href={`/projects/tag/${kebabCase(tag)}`}>
-                  <div className="px-2 py-1 m-1 text-sm rounded-lg cursor-pointer bg-fun-pink-dark hover:opacity-75">
-                    {tag}
-                  </div>
-                </Link>
+                {/* <Link href={`/projects/tag/${kebabCase(tag)}`}> */}
+                <div className="px-2 py-1 m-1 text-sm rounded-lg cursor-pointer bg-fun-pink-dark hover:opacity-75">
+                  {tag}
+                </div>
+                {/* </Link> */}
               </li>
             );
           })}

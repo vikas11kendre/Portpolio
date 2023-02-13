@@ -1,6 +1,5 @@
-# **[braydentw.io](https://braydentw.io)**
-
-Hey there! I'm Brayden and this is my lovely lovely portfolio built using **React, NextJS, and TailwindCSS**!
+Hey there! I'm vikas kendre and this is my lovely lovely portfolio built using **React, NextJS, and TailwindCSS**!
+Design inspired by Brayden Wright
 
 ## Guidelines
 
@@ -13,7 +12,7 @@ Hey there! I'm Brayden and this is my lovely lovely portfolio built using **Reac
 Doing so makes it better for everyone here on this platform and respects what everyone has made. **Please be you and make yourself unique from the rest!** ✨
 
 <hr/>
-<a href="https://www.buymeacoffee.com/braydenw" target="_blank"><img src="./public/static/misc/buy-me-a-coffee.svg" alt="Buy Me A Coffee: @BraydenW" width="160"></a>&nbsp;
-<a href="https://paypal.me/braydentw" target="_blank"><img src="./public/static/misc/paypal.svg" alt="PayPal: @BraydenTW" width="160"></a>
+<a href="https://www.buymeacoffee.com/vikaskendre" target="_blank"><img src="./public/static/misc/buy-me-a-coffee.svg" alt="Buy Me A Coffee: @vikas width="160"></a>&nbsp;
+
 <br/>
 <p>Thank you so much for your support. 💙</p>

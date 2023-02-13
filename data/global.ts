@@ -27,18 +27,15 @@ export const routes: Route[] = [
     title: "Home",
     path: "/",
   },
-  // {
-  //   title: "Blog",
-  //   path: "/blog",
-  // },
+
   {
     title: "Projects",
     path: "/projects",
   },
-  {
-    title: "Blogs",
-    path: "/blogs",
-  },
+  // {
+  //   title: "Blogs",
+  //   path: "/blogs",
+  // },
 ];
 
 export const footer: Footer = {
@@ -51,21 +48,17 @@ export const footer: Footer = {
           link: "/",
           leavesWebsite: false,
         },
-        // {
-        //   name: "Blog",
-        //   link: "/blog",
-        //   leavesWebsite: false,
-        // },
+
         {
           name: "Projects",
           link: "/projects",
           leavesWebsite: false,
         },
-        {
-          name: "Blogs",
-          link: "/blogs",
-          leavesWebsite: false,
-        },
+        // {
+        //   name: "Blogs",
+        //   link: "/blogs",
+        //   leavesWebsite: false,
+        // },
       ],
     },
     {

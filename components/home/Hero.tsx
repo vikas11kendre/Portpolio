@@ -62,7 +62,7 @@ function Hero() {
           activeClass="active"
           to="learnmore"
           spy={true}
-          offset={-30}
+          offset={-60}
           smooth={true}
           duration={500}
         >

@@ -1,4 +1,4 @@
-import { kebabCase, kebabArray } from "@/utils/utils";
+// import { kebabCase, kebabArray } from "@/utils/utils";
 import { Project } from "types";
 
 const projects: Project[] = [
@@ -20,9 +20,10 @@ const projects: Project[] = [
       "Google Oauth",
       "Cloudinary",
       "Middleware",
-      "WYSIWYG rich text editor",
+
       "AWS EC2",
       "CRUD",
+      "WYSIWYG rich text editor",
     ],
   },
   {
@@ -37,9 +38,10 @@ const projects: Project[] = [
       "Material Ui",
       "responsive",
       "Adobe Illustrator",
-      "custom Illstrations",
+
       "Figma",
       "UI UX",
+      "custom Illstrations",
     ],
   },
   {
@@ -110,12 +112,12 @@ const projects: Project[] = [
   // },
 ];
 
-export const allTags = [];
+// export const allTags = [];
 
-projects.forEach((project) => {
-  project.tags.forEach((tag) => !allTags.includes(tag) && allTags.push(tag));
-});
+// projects.forEach((project) => {
+//   project.tags.forEach((tag) => !allTags.includes(tag) && allTags.push(tag));
+// });
 
-export const allKebabTags = allTags.map((tag) => kebabCase(tag));
+// export const allKebabTags = allTags.map((tag) => kebabCase(tag));
 
 export default projects;
