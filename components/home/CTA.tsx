@@ -9,10 +9,11 @@ function CTA() {
           Interested in Working Together?
         </h2>
         <a
-          href="mailto:kendrevikas98@gmail.com"
+          href="./resume_vikaskendre.pdf"
+          download
           className="px-8 py-3 mt-6 font-bold text-white transition-colors border-2 border-white rounded-full cursor-pointer whitespace-nowrap bg-bg hover:bg-fun-pink hover:border-fun-pink"
         >
-          Get in Touch
+          Download My Resume
         </a>
       </div>
 

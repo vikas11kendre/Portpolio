@@ -8,12 +8,12 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
   const pageTitle = `${
     currentPage === "Home"
       ? "Vikas Kendre - Web Developer, Designer, Creator."
-      : `${currentPage} - vikaskendre.xyz`
+      : `${currentPage} - vikaskendre.com`
   }`;
 
   return (
     <div
-      className="flex flex-col items-center justify-center w-full min-h-screen m-auto overflow-hidden text-white  md:overflow-visible"
+      className="flex flex-col items-center justify-center w-full min-h-screen m-auto overflow-hidden text-white md:overflow-visible"
       style={{ maxWidth: "1200px" }}
     >
       <Head>
@@ -41,12 +41,12 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         <meta name="description" content={desc} />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://vikaskendre.xyz/" />
+        <meta property="og:url" content="https://www.vikaskendre.com/" />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={desc} />
         <meta
           property="og:image"
-          content="https://braydentw.io/static/misc/og.png"
+          content="https://www.vikaskendre.com/static/misc/og.png"
         />
       </Head>
 

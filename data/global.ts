@@ -72,13 +72,13 @@ export const footer: Footer = {
         },
         {
           name: "LinkedIn",
-          link: "www.linkedin.com/in/vikas-kendre",
+          link: "https://www.linkedin.com/in/vikas-kendre",
           icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },
         {
           name: "Email",
-          link: "kendrevikas98@gmail.com",
+          link: "mailto:kendrevikas98@gmail.com",
           icon: "/static/icons/mail-f.svg",
           leavesWebsite: true,
         },
